@@ -9,8 +9,6 @@ int main() {
   freopen((path + "/test.in").c_str(), "r", stdin);
   freopen((path + "/test.out").c_str(), "w", stdout);
 #endif
-  int a, b;
-  cin >> a >> b;
-  cout << a + b << endl;
+  cout << "zhanghao";
   return 0;
 }

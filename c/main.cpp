@@ -2,15 +2,20 @@
 
 using namespace std;
 
+int t, n,k;
+
 int main() {
 #ifdef LOCAL_DEBUG
   std::string path = PROJECT_SRC_DIR;
-  path += "/a";
+  path += "/c";
   freopen((path + "/test.in").c_str(), "r", stdin);
   freopen((path + "/test.out").c_str(), "w", stdout);
 #endif
-  int a, b;
-  cin >> a >> b;
-  cout << a + b << endl;
+  cin >> t;
+  while (t--) {
+    cin >> n>>k;
+
+    cout << endl;
+  }
   return 0;
 }
