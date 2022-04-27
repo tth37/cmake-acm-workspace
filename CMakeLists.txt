@@ -1,6 +1,11 @@
+cmake_minimum_required(VERSION 3.21)
+
 project(ACM_WORKSPACE)
 
 set(CMAKE_CXX_STANDARD 17)
+
+add_compile_definitions(LOCAL_DEBUG)
+add_compile_definitions(PROJECT_SRC_DIR="${CMAKE_CURRENT_SOURCE_DIR}")
 
 add_executable(a a/main.cpp)
 add_executable(b b/main.cpp)
